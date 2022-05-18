@@ -1,0 +1,22 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Century;
+}
+
+body{
+    background-image: url(../img/portada.jpg);
+    background-size: 45%;
+}
+
+.login{
+    display: flex;
+}
+
+.in_flex{
+    background-color: aliceblue;
+    width: 30%;
+    padding: 20px;
+    margin: 20px;
+}

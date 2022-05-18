@@ -1,0 +1,78 @@
+.bloque_4{
+    background: linear-gradient(white, white, white, white, white, rgb(196, 196, 196));   
+}
+
+.centrar_4{
+    border: 0px solid yellow;
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    text-align: center;
+    padding: 40px 0;
+}
+
+.abajo_4{
+    border: 0px solid;
+}
+
+.sobretitulo_4{
+    color: orangered;
+    font-size: 18px;
+}
+
+.titulo_4{
+    color: #242323;
+    font-size: 40px;
+}
+
+.diseño, .e_commerce, .hosting, .marketing{
+    border: 0px solid green;
+    box-shadow: 0px -1px 5px 0px #7a7777;
+    border-radius: 5px;
+    width: 46%;
+    height: 165px;
+    display: inline-block;
+    padding: 10px;
+    margin: 10px;
+}
+
+.texto_1_4, .texto_2_4, .texto_3_4, .texto_4_4{
+    border: 0px solid;
+    width: 64%;
+    display: block;
+    float: right;
+    text-align: left;
+    line-height: 30px;
+    text-align: justify;
+    padding: 0 15px 0 0;
+    font-weight: 300;
+}
+
+.foto_1_4, .foto_2_4, .foto_3_4, .foto_4_4{
+    width: 33%;
+    border: 0px solid;
+    float: left;
+}
+
+.imagen {
+    width: 155px;
+}
+
+.diseño p{
+    color: #7a7878;
+}
+
+.e_commerce p{
+    color: #7a7878;
+}
+
+.marketing p{
+    color: #7a7878;
+}
+
+.hosting p{
+    color: #7a7878;
+}
+
+

@@ -1,0 +1,174 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+.bloque{
+    width: 100%; /*ocupa todo el ancho */
+    height: auto; /*largo automático*/
+    overflow: hidden;} /*si un elemento es más grande que el contenedor que lo contiene, lo oculte*/
+
+.header{
+    background-image: url(../img/header.fw.png); /*imagen de fondo*/
+    background-size: 100%; /*que abarque todo el contenedor*/
+    background-repeat: no-repeat; /*la imagen no se repite*/ 
+}
+
+.centrar{
+    width: 80%; /*el largo abarca solo un 80% de la pantalla*/
+    height: auto; 
+    overflow: hidden;
+    border: 0px solid red; /*borde para diferenciar los contenedores*/
+    margin: auto; /*centrado de contenedores interiores*/
+    text-align: center; /*centrado de texto dentro de contenedores*/
+    padding: 40px 0px;
+}
+
+.logo{
+    color: #C1c1c1; margin-top: 10px; /*da un tope*/ 
+    width: 30%; /*ocupa solo un 30% del total*/
+    float: left; /*flota sobre su contenedor a la izquierda*/
+    border: 0px solid yellow;
+    text-align: left;
+}
+
+.menu_principal{
+    border: 0px solid green;
+    float: right; /*flota a la derecha*/
+    width: 53%; /*usa el 60% del total del contenedor*/
+    background: rgba(0,0,0,0.5);
+    border-radius: 10px;
+}
+
+/*.menu_principal ul{}*/
+
+.menu_principal ul li{
+    list-style: none; /*lista sin puntitos*/
+    display: inline-block; /*para que quede en fila y no en columna*/
+    padding: 15px 20px;
+}
+
+.menu_principal ul li a{ /*a es href*/
+    color: #fff;
+    text-decoration: none; /*elimina decoraciones en las letras (aki eliminé el subrayado*/
+}
+
+/*Izquierda y derecha*/
+.izquierda, .derecha{
+    width: 48%;
+    height: auto;
+    overflow: hidden;
+    border: 0px solid orangered;
+    display: inline-block;
+}
+.derecha{
+    float: right;
+}
+.izquierda{
+    float: left;
+    text-align: left;
+}
+.sobretitulo{
+    color: #cfcfcf;
+    font-size: 20px;
+}
+.titulo_principal{
+    color: white;
+    font-size: 70px;
+}
+
+.parrafo{
+    color: #cfcfcf;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.boton{
+    padding: 15px 40px;
+    color: #fff;
+    background-color: red;
+    border: none;
+    border-radius: 6px;
+}
+
+.sobretitulo, .titulo_principal, .parrafo{
+    text-align: left;
+}
+
+.img{
+    width: 94%;
+}
+
+div{
+    border: 0px solid red;
+}
+
+.centrar_2{
+    width: 80%;
+    height: auto;
+    border: 0px solid black;
+    overflow: hidden;
+    padding: 40px 0;  
+    margin: auto;  
+}
+
+.izquierda_2{
+    float: left;
+    width: 48%;
+    border: 0px solid orange;
+    text-align: center;
+}
+
+.derecha_2{
+    width: 50%;
+    float: right;
+    border: 0px solid orange;
+}
+
+.img_2{
+    width: 380px;
+}
+
+.sobretitulo_2{
+    color: orangered;
+    font-size: 15px;
+}
+
+.titulo_principal_2{
+    font-size: 30px;
+}
+
+.parrafo_2{
+    font-weight: 300;
+    color: #8f8f8f;
+    font-size: 14px;
+}
+
+.foto_porque_elegirnos{
+    width: 20%;
+    padding: 5px ;
+    float: left;
+    border: 0px solid;
+}
+
+.letra_caja_porque_elegirnos{
+    width: 70%;
+    display: inline-block;
+    padding: 15px 0;
+    font-size: 14px;
+    border: 0px solid
+}
+
+.profesional, .personal, .compromiso, .responsabilidad{
+    display: inline-block;
+    border: 1px solid #8f8f8f84;
+    border-radius: 3px;
+    width: 46%; 
+    margin: 10px 11px 10px 0px;
+    box-shadow: -3px 0px 0px 0px rgb(198, 29, 29);
+}
+
