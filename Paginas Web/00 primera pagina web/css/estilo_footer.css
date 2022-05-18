@@ -1,0 +1,96 @@
+footer{
+    background-image: url(../img/footer.fw.png);
+    width: 100%;
+    height: 270px;
+}
+
+.center_footer{
+    border: 0px solid green;
+    width: 80%;
+    height: 0;
+    margin: auto;
+    color: white;
+    text-align: left;
+}
+
+.arriba_footer{
+    height: 500px;
+}
+
+.arriba_footer, .abajo_footer{
+    width: 100%;
+    height: auto;
+    border: 0px solid red;
+}
+
+.izquierda_footer, .derecha_footer{
+    display: block;
+    width: 47%;
+    height: auto;
+    border: 0px solid yellow;
+    margin: 10px;
+    text-align: center;
+}
+
+.contactenos_footer{
+    text-align: center;
+    padding: 20px;
+    border-bottom: 1px solid rgb(208, 199, 199);
+    color: rgb(208, 199, 199);
+}
+
+.descripcion_contactenos{
+    text-align: center;
+    padding: 0 1px;
+    border: 0 1px solid rgb(208, 199, 199);
+    color: rgb(208, 199, 199);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.datos_footer{
+    text-align: left;
+    padding: 0 1px;
+    border: 0 1px solid rgb(208, 199, 199);
+    color: rgb(208, 199, 199);
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.derecha_footer{
+    float: right;
+}
+
+.izquierda_footer{
+    float: left;
+}
+
+.contacto_footer{
+    border: 0px solid yellow;
+    width: 60%;
+    margin: 5px;
+    border-radius: 7px;
+    padding: 10px;
+    color: rgb(160, 153, 153);
+}
+
+.boton_footer{
+    display: block;
+    width: 60px;
+    height: 30px;
+    margin: auto;
+}
+
+.abajo_footer{
+    text-align: center;
+    padding: 0px;
+    color: rgb(208, 199, 199);
+    font-size: 14px;
+    font-weight: 300;
+    padding: 240px 0 0 0;
+}
+
+.derechos{
+    border-top: 1px solid rgb(208, 199, 199);
+
+}

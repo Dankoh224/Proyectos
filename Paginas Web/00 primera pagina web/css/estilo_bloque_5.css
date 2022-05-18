@@ -1,0 +1,70 @@
+.bloque_5{
+    padding: 0;
+    background: rgb(246, 238, 238);
+    font-family: 'Roboto', sans-serif;
+}
+
+.center_5{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.sobretitulo_5{
+    padding: 40px 10px 8px 10px;
+    color: orangered;
+    font-size: 14px;
+}
+
+.titulo_5{
+    padding: 8px 10px 30px 10px;
+    color: rgb(55, 54, 54);
+    font-size: 30px;
+}
+
+.arriba_5, .abajo_5{
+    border: 0px solid green;
+}
+
+.cajas_5{
+    background-color: white;
+    border: 0px solid;
+    border-radius: 8px;
+    display: inline-table;
+    width: 30%;
+    height: 600px;
+    margin: 15px;
+    font-size: 18px;
+    font-weight: 300;    
+}
+
+.titulo_plan_5{
+    background-color: red;
+    width: 35%;
+    color: white;
+    font-size: 14px;
+    font-weight: 100;
+    padding: 10px 20px;
+    margin: 20px 0 0 0;
+    border-radius: 0 40px 40px 0;
+}
+
+.img_5{
+    width: 80%;
+}
+
+h5{
+    color:rgb(61, 61, 61);
+    font-weight: 400;
+    padding: 14px;
+}
+
+.boton_5{
+    background-color: rgba(163, 12, 12, 0.959);
+    border: 1px solid rgba(163, 12, 12, 0.959);
+    padding: 12px 20px;
+    border-radius: 5px;
+    color: white;
+    width: 100%;
+    font-size: 12px;
+}

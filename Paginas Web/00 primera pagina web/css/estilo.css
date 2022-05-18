@@ -91,7 +91,7 @@ body{
     padding: 15px 40px;
     color: #fff;
     background-color: red;
-    border: none;
+    border: 0;
     border-radius: 6px;
 }
 
