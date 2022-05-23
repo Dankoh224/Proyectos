@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
 }
 
 body{
@@ -8,29 +9,37 @@ body{
 }
 
 .bloque{
+    border: 0px solid red;
     width: 100%; /*ocupa todo el ancho */
-    height: auto; /*largo automático*/
-    overflow: hidden;} /*si un elemento es más grande que el contenedor que lo contiene, lo oculte*/
+    height: 100%; /*largo automático*/
+    overflow: hidden;
+    box-sizing: border-box;
+} /*si un elemento es más grande que el contenedor que lo contiene, lo oculte*/
+    
 
 .header{
+    /* border: 8px dashed green; */
     background-image: url(../img/header.fw.png); /*imagen de fondo*/
     background-size: 100%; /*que abarque todo el contenedor*/
-    background-repeat: no-repeat; /*la imagen no se repite*/ 
+    /* background-repeat: no-repeat; */
+    /*la imagen no se repite*/ 
 }
 
 .centrar{
     width: 80%; /*el largo abarca solo un 80% de la pantalla*/
     height: auto; 
     overflow: hidden;
-    border: 0px solid red; /*borde para diferenciar los contenedores*/
+    border:0px solid fuchsia; /*borde para diferenciar los contenedores*/
     margin: auto; /*centrado de contenedores interiores*/
     text-align: center; /*centrado de texto dentro de contenedores*/
-    padding: 40px 0px;
+    padding: 7% 0;
 }
 
 .logo{
-    color: #C1c1c1; margin-top: 10px; /*da un tope*/ 
-    width: 30%; /*ocupa solo un 30% del total*/
+    color: #C1c1c1;
+    margin-top: 1px; /*da un tope*/ 
+    width: 100%; /*ocupa solo un 30% del total*/
+    font-size: 2.5vw;
     float: left; /*flota sobre su contenedor a la izquierda*/
     border: 0px solid yellow;
     text-align: left;
@@ -39,22 +48,37 @@ body{
 .menu_principal{
     border: 0px solid green;
     float: right; /*flota a la derecha*/
-    width: 53%; /*usa el 60% del total del contenedor*/
+    width: 70%; /*usa el 60% del total del contenedor*/
     background: rgba(0,0,0,0.5);
     border-radius: 10px;
+    text-align: right;
 }
 
-/*.menu_principal ul{}*/
 
 .menu_principal ul li{
+    width: 100%;
+    border: 0px solid blue;
     list-style: none; /*lista sin puntitos*/
-    display: inline-block; /*para que quede en fila y no en columna*/
-    padding: 15px 20px;
+    display: inline; /*para que quede en fila y no en columna*/
+    margin: 0%;
+    padding: 1.7%;
+
+    
 }
 
 .menu_principal ul li a{ /*a es href*/
+    border: px solid red;
     color: #fff;
     text-decoration: none; /*elimina decoraciones en las letras (aki eliminé el subrayado*/
+    width: 100%;
+    padding: 0.1%;    
+}
+
+a{
+    width: 100%;
+    border: 0px solid orange;
+    font-size: 2vw;
+
 }
 
 /*Izquierda y derecha*/
