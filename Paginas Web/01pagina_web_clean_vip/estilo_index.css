@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Heebo', sans-serif;
+}
+
+.encabezado{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    border: 0px solid yellow;
+    background-color: rgb(48, 13, 57);
+}
+
+.centrar{
+    border: 0px solid rgb(18, 234, 213);
+    width: 90%;
+    height: auto;
+    overflow: hidden;
+    margin: auto;
+    display: grid;
+    padding: 2%;
+    
+}
+
+.logo{
+    margin-top: 1.5%;
+    width: 25%;
+    float: left;
+    border: 0px solid red;
+    display: inline-flex;
+}
+
+.imagen{
+    width: 120%;
+    height: auto;
+    text-align: center;
+    
+}
+
+.izquierda_logo{
+    background: linear-gradient(rgb(210, 24, 182), rgb(79, 21, 93),rgb(48, 13, 57));   
+    border-radius: 12px;
+    width: 22%;
+    border: 0px solid green;
+}
+
+.derecha_logo{
+    border: 0px solid rgb(26, 62, 26);
+    color: white;
+    line-height: 120%;
+    padding: 5% 0 0 4%;
+
+}
+
+.titulo{
+    color:rgb(210, 24, 182);
+}
+
+.subtitulo{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+.subsubtitulo{
+    font-size: 12px;
+    font-weight: 300;
+}
+
+.menu{
+    margin: 7% 0 0 0;
+    float: right;
+    border: 0px solid orangered;
+    width: 75%;
+    text-align: center;
+}
+
+.menu ul li{
+    border: 0px solid green;
+    width: 100%;
+    display: inline;
+    list-style: none;
+}
+
+.menu ul li a{
+    border: 0px solid yellow;
+    color: white;
+    font-size: 7px;
+    font-weight: 300;
+    text-decoration: none;
+    width: 100%;
+    font-size: 100%;
+    padding: 1% 3% 1% 3%;
+}
+
+.abajo{
+    margin: 5.1% 0 0 0;
+    border: 0px solid yellow;
+    display: inline-flex;
+}
+
+.texto{
+    border: 0px solid orange;
+    color: white;
+    font-weight: 100;
+    font-size: 25px;
+    padding: 0 10px 0 0;
+}
+
+.nuestro_equipo{
+    color: white;
+    font-weight: 300;
+    text-align: center;
+}
+
+.imagen_abajo{
+    flex: right;
+    border: 0px solid blue ;
+    width: 100%;
+    box-shadow: 0 0 8px 8px rgb(210, 24, 182);
+}
