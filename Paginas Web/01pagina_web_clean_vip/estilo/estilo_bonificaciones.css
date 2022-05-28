@@ -1,0 +1,24 @@
+.opciones_bonificacion{
+    border: 0px solid red;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.imagen_bonificacion{
+    width: 100px;
+}
+
+.cajas_opciones_bonificacion{
+    width: 31%;
+    border: 1px solid rgb(212, 200, 210);
+    border-radius: 15px;
+    box-shadow: 5px 8px 8px 0px rgb(168, 16, 105);
+    text-shadow: 0 0 0 0;
+    margin: 1%;
+    float: left;
+}
+
+.imagen_bonificacion_1{
+    width: 36.2%;
+}

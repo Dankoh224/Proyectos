@@ -118,7 +118,6 @@ body{
 }
 
 .imagen_abajo{
-    flex: right;
     border: 0px solid blue ;
     width: 100%;
     box-shadow: 0 0 8px 8px rgb(210, 24, 182);
